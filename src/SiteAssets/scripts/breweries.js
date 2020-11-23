@@ -29,14 +29,14 @@ function getBreweries() {
 			$(".dropdown-cities").append(_dropdownItem)
 
 			let _breweryType = n.brewery_type,
-				_uppCase = _breweryType.charAt(0).toUpperCase() + _breweryType.slice(1)
+				_brewTypeUppcase = _breweryType.charAt(0).toUpperCase() + _breweryType.slice(1)
 
 			let _tile = $(`
 				<div class="tile is-4 is-parent mix">
 					<article class="tile is-child is-primary box">
 						<p class="title tile-breweryname"><a href="${n.website_url}" target="_blank">${n.name}</a></p>
 						<hr>
-						<p class="subtitle tile-brewtype"><strong>Type:</strong> ${_uppCase}</p>
+						<p class="subtitle tile-brewtype"><strong>Type:</strong> ${_brewTypeUppcase}</p>
 						<p class="subtitle tile-address"><strong>Address:</strong> ${n.street} - ${n.city}</p>
 					</article>
 				</div>
@@ -46,11 +46,8 @@ function getBreweries() {
 
 			$(_tile)
 				.attr("data-filter", "filter") // prevents Mixitup console err message
-				.attr("data-brew-name", n.name) // sort by A-Z
-				.addClass(_uppCase)
-
-			
-
+				.attr("data-brew-name", n.name) // sort A-Z
+				.addClass(_brewTypeUppcase) // sort by Type
 
 		}) // _state.forEach
 		
