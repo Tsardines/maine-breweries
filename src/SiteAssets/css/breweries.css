@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=breweries.css.map */
+.is-ancestor {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tile-breweryname a {
+  color: #006d5c !important;
+}
+
+.tile-breweryname a:hover {
+  color: #12a18c !important;
+}
+
+.tile-brewtype,
+.tile-address {
+  font-size: 1rem !important;
+}
+/*# sourceMappingURL=breweries.css.map */

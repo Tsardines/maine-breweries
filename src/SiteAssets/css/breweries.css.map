@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AASA,AAAA,YAAY,CAAC;EACT,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,iBAAiB,CAAC,CAAC,CAAC;EAChB,KAAK,EAdC,OAAO,CAcG,UAAU;CAC7B;;AAED,AAAA,iBAAiB,CAAC,CAAC,AAAA,MAAM,CAAC;EACtB,KAAK,EAjBG,OAAO,CAiBG,UAAU;CAC/B;;AAED,AAAA,cAAc;AACd,aAAa,CAAC;EACV,SAAS,EArBF,IAAI,CAqBU,UAAU;CAClC",
     "sources": [
         "breweries.scss"
     ],

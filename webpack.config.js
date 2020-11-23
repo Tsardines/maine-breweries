@@ -42,11 +42,11 @@ module.exports = {
         //   }
         ]
     },
-    devtool: 'cheap-module-eval-source-map',
-    devServer: {
-        contentBase: path.join(__dirname, 'public'),
-        historyApiFallback: true
-    },
+    // devtool: 'cheap-module-eval-source-map',
+    // devServer: {
+    //     contentBase: path.join(__dirname, 'public'),
+    //     historyApiFallback: true
+    // },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({

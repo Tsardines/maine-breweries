@@ -1,0 +1,25 @@
+$primary: #006d5c;
+$secondary: #12a18c;
+$subtitle: 1rem;
+
+// .button {
+//     background-color: $button-color;
+//     color: white;
+// }
+
+.is-ancestor {
+    flex-wrap: wrap;
+}
+
+.tile-breweryname a {
+    color: $primary !important;
+}
+
+.tile-breweryname a:hover {
+    color: $secondary !important;
+}
+
+.tile-brewtype,
+.tile-address {
+    font-size: $subtitle !important;
+}
